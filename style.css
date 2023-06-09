@@ -1,9 +1,39 @@
-#left-background {
-    position: relative;
-    width: 300px;
+body {
+    background-color: black;
 }
 
 form {
-    position: relative;
-    width: 600px;
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 675px;
+    color: #cb8400;
+}
+
+#background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 653px
+}
+
+#logo-back {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.308);
+    color: white;
+    font-size: 100px;
+    left: 0;
+    top: 375px;
+    width: 653px;
+    height: 170px;
+}
+
+#odin-logo {
+    position: absolute;
+    width: 100px;
+    height: auto;
+    top: 400px;
+    left: 450px;
 }
