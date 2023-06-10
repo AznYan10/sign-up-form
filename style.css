@@ -4,30 +4,52 @@ body {
 
 form {
     position: absolute;
-    top: 0;
-    left: 675px;
+    top: 555px;
+    left: 800px;
     color: #cb8400;
 }
 
 button {
-    width: 100px;
-    height: 80px;
+    position: absolute;
+    top: 250px;
+    left: 0;
+    width: 250px;
+    height: 50px;
+    font-size: 25px;
+    color: black;
+    background-color: #cb8400;
+    border-radius: 10%;
 }
 
 .form-group {
-    display: flex;
-    flex-direction: column;
+    display: inline-block;
+    margin-right: 250px;
+    vertical-align: top;
     margin-bottom: 20px;
 }
 
+.top-column {
+    width: 25%;
+}
+
+.bottom-column {
+    width: 25%;
+}
+
 .form-group label {
+    display: block;
     font-weight: bold;
+    margin-bottom: 5px;
 }
 
 .form-group input {
+    display: block;
     padding: 5px;
-    color: white; /* Set input text color */
-    background-color: #cb8400; /* Set input background color */
+    color: white;
+    background-color: #cb8400;
+    box-sizing: border-box;
+    width: 400px; /* Set the desired width for the inputs */
+    border-radius: 5%;
 }
 
 #background-image {
