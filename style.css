@@ -4,9 +4,16 @@ body {
 
 form {
     position: absolute;
-    top: 555px;
+    top: 455px;
     left: 800px;
     color: #cb8400;
+}
+
+p {
+    width: 925px;
+    color: #cb8400;
+    font-size: 30px;
+    font-weight: bold;
 }
 
 button {
@@ -19,6 +26,7 @@ button {
     color: black;
     background-color: #cb8400;
     border-radius: 10%;
+    cursor: pointer;
 }
 
 .form-group {
@@ -50,6 +58,25 @@ button {
     box-sizing: border-box;
     width: 400px; /* Set the desired width for the inputs */
     border-radius: 5%;
+}
+
+#long-paragraph {
+    position: absolute;
+    left: 800px;
+    top: 100px;
+}
+
+#short-paragraph {
+    position: absolute;
+    left: 800px;
+    top: 250px;
+}
+
+#account-made {
+    position: absolute;
+    left: 800px;
+    top: 740px;
+    font-size: 18px;
 }
 
 #background-image {
