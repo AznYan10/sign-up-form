@@ -32,15 +32,7 @@ button {
 .form-group {
     display: inline-block;
     margin-right: 250px;
-    vertical-align: top;
     margin-bottom: 20px;
-}
-
-.top-column {
-    width: 25%;
-}
-
-.bottom-column {
     width: 25%;
 }
 
