@@ -16,19 +16,6 @@ p {
     font-weight: bold;
 }
 
-button {
-    position: absolute;
-    top: 250px;
-    left: 0;
-    width: 250px;
-    height: 50px;
-    font-size: 25px;
-    color: black;
-    background-color: #cb8400;
-    border-radius: 10%;
-    cursor: pointer;
-}
-
 .form-group {
     display: inline-block;
     margin-right: 250px;
@@ -36,14 +23,23 @@ button {
     width: 25%;
 }
 
+button {
+    width: 250px;
+    height: 50px;
+    font-size: 25px;
+    color: black;
+    background-color: #cb8400;
+    border-radius: 10%;
+    cursor: pointer;
+    margin-top: 20px; /* Add margin-top to create space below the form */
+}
+
 .form-group label {
-    display: block;
     font-weight: bold;
     margin-bottom: 5px;
 }
 
 .form-group input {
-    display: block;
     padding: 5px;
     color: white;
     background-color: #cb8400;
@@ -65,9 +61,7 @@ button {
 }
 
 #account-made {
-    position: absolute;
-    left: 800px;
-    top: 740px;
+    width: 300px;
     font-size: 18px;
 }
 
