@@ -16,6 +16,10 @@ p {
     font-weight: bold;
 }
 
+::placeholder {
+    color: rgba(0, 0, 0, 0.322);
+}
+
 .form-group {
     display: inline-block;
     margin-right: 250px;
