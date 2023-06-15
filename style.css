@@ -52,6 +52,14 @@ button {
     border-radius: 5%;
 }
 
+.valid {
+    color: green;
+}
+
+.invalid {
+    color: red;
+}
+
 #long-paragraph {
     position: absolute;
     left: 800px;
@@ -96,3 +104,15 @@ button {
     top: 400px;
     left: 450px;
 }
+
+#message {
+    display:none;
+    color: white;
+    position: relative;
+    margin-top: 5px;
+  }
+  
+  #message p {
+    padding: 10px 35px;
+    font-size: 15px;
+  }
