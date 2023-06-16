@@ -6,18 +6,33 @@ form {
     position: absolute;
     top: 455px;
     left: 800px;
-    color: #cb8400;
+    color: #ffeece;
 }
 
 p {
     width: 925px;
-    color: #cb8400;
+    color: #ffeece;
     font-size: 30px;
     font-weight: bold;
 }
 
+button {
+    width: 250px;
+    height: 50px;
+    font-size: 25px;
+    color: #ffeece;
+    background-color: #342200;
+    border-radius: 10%;
+    cursor: pointer;
+    margin-top: 20px; /* Add margin-top to create space below the form */
+}
+
 ::placeholder {
-    color: rgba(0, 0, 0, 0.322);
+    color: #6d4809;
+}
+
+:link {
+    color: #6d4809;
 }
 
 .form-group {
@@ -25,17 +40,6 @@ p {
     margin-right: 250px;
     margin-bottom: 20px;
     width: 25%;
-}
-
-button {
-    width: 250px;
-    height: 50px;
-    font-size: 25px;
-    color: black;
-    background-color: #cb8400;
-    border-radius: 10%;
-    cursor: pointer;
-    margin-top: 20px; /* Add margin-top to create space below the form */
 }
 
 .form-group label {
@@ -46,7 +50,7 @@ button {
 .form-group input {
     padding: 5px;
     color: white;
-    background-color: #cb8400;
+    background-color: #342200;
     box-sizing: border-box;
     width: 400px; /* Set the desired width for the inputs */
     border-radius: 5%;
@@ -107,7 +111,6 @@ button {
 
 #message {
     display:none;
-    color: white;
     position: relative;
     margin-top: 5px;
   }
